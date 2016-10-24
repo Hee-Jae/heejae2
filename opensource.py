@@ -4,7 +4,7 @@
 +-----------+-----------+-----------+
 |Contributor| Wonjung   | Heejae    |
 +===========+===========+===========+
-|   Date    |2016.10.12.|2016.10.12 |
+|   Date    |2016.10.24 |2016.10.24 |
 +-----------+-----------+-----------+
 | The first project, RSP Game!      |
 +-----------+-----------+-----------+
@@ -28,28 +28,28 @@ def main():
 		# 사용자가 가위를 냈을 경우
 		if(com_finger == 1):
 			if(my_finger == 1):
-				print("컴퓨터가 낸 것은 가위입니다. -> Draw")
+				print("컴퓨터가 낸 것은 가위입니다. -> 비김!")
 			elif(my_finger == 2):
-				print("컴퓨터가 낸 것은 가위입니다. -> Win!")
+				print("컴퓨터가 낸 것은 가위입니다. -> 이김!")
 			elif(my_finger == 3):
-				print("컴퓨터가 낸 것은 가위입니다. -> Lose")
+				print("컴퓨터가 낸 것은 가위입니다. -> 짐!")
 		
 		# 사용자가 바위를 냈을 경우
 		elif(com_finger == 2):
 			if(my_finger == 1):
-				print("컴퓨터가 낸 것은 바위입니다. -> Lose")
+				print("컴퓨터가 낸 것은 바위입니다. -> 짐!")
 			elif(my_finger == 2):
-				print("컴퓨터가 낸 것은 가위입니다. -> Draw")
+				print("컴퓨터가 낸 것은 가위입니다. -> 비김!")
 			elif(my_finger == 3):
-				print("컴퓨터가 낸 것은 가위입니다. -> Win!")
+				print("컴퓨터가 낸 것은 가위입니다. -> 이김!")
 		
 		# 사용자가 보를 냈을 경우
 		elif(com_finger == 3):
 			if(my_finger == 1):
-				print("컴퓨터가 낸 것은 바위입니다. -> Win!")
+				print("컴퓨터가 낸 것은 바위입니다. -> 이김!")
 			elif(my_finger == 2):
-				print("컴퓨터가 낸 것은 가위입니다. -> Lose")
+				print("컴퓨터가 낸 것은 가위입니다. -> 짐!")
 			elif(my_finger == 3):
-				print("컴퓨터가 낸 것은 가위입니다. -> Draw")
+				print("컴퓨터가 낸 것은 가위입니다. -> 비김!")
 
 main()
