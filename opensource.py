@@ -28,28 +28,28 @@ def main():
 		# 사용자가 가위를 냈을 경우
 		if(com_finger == 1):
 			if(my_finger == 1):
-				print("컴퓨터가 낸 것은 가위입니다. -> 비김!")
+				print("컴퓨터가 낸 것은 가위입니당. -> 비김!")
 			elif(my_finger == 2):
-				print("컴퓨터가 낸 것은 가위입니다. -> 이김!")
+				print("컴퓨터가 낸 것은 가위입니당. -> 이김!")
 			elif(my_finger == 3):
-				print("컴퓨터가 낸 것은 가위입니다. -> 짐!")
+				print("컴퓨터가 낸 것은 가위입니당. -> 짐!")
 		
 		# 사용자가 바위를 냈을 경우
 		elif(com_finger == 2):
 			if(my_finger == 1):
-				print("컴퓨터가 낸 것은 바위입니다. -> 짐!")
+				print("컴퓨터가 낸 것은 바위입니당. -> 짐!")
 			elif(my_finger == 2):
-				print("컴퓨터가 낸 것은 가위입니다. -> 비김!")
+				print("컴퓨터가 낸 것은 가위입니당. -> 비김!")
 			elif(my_finger == 3):
-				print("컴퓨터가 낸 것은 가위입니다. -> 이김!")
+				print("컴퓨터가 낸 것은 가위입니당. -> 이김!")
 		
 		# 사용자가 보를 냈을 경우
 		elif(com_finger == 3):
 			if(my_finger == 1):
-				print("컴퓨터가 낸 것은 바위입니다. -> 이김!")
+				print("컴퓨터가 낸 것은 바위입니당. -> 이김!")
 			elif(my_finger == 2):
-				print("컴퓨터가 낸 것은 가위입니다. -> 짐!")
+				print("컴퓨터가 낸 것은 가위입니당. -> 짐!")
 			elif(my_finger == 3):
-				print("컴퓨터가 낸 것은 가위입니다. -> 비김!")
+				print("컴퓨터가 낸 것은 가위입니당. -> 비김!")
 
 main()
